@@ -1,12 +1,10 @@
 title: gaeun's blog
 description: >
   **I am Strat222a**, a super simple
-  responsive site template freebie
-  crafted by [HTML5 UP]
   **I am Gaeun**
   welcome to my blog.
-  (http://html5up.net).
-copyright: Untitled
+  responsive site template freebie
+  crafted by [HTML5 UP](http://html5up.net).
 copyright: Untitled
 sass:
   sass_dir: assets/sass
