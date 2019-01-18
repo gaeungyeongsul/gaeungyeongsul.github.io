@@ -1,8 +1,9 @@
 title: gaeun's blog
 description: >
   **I am Gaeun**
+  <br>
   welcome to my blog.
-copyright: 카피라이트가뭐지?
+copyright: Untitled
 sass:
   sass_dir: assets/sass
 url: http://rhdalflrhd.github.io
