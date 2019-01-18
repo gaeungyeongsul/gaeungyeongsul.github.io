@@ -1,9 +1,8 @@
-title: Strata by HTML5 UP
+title: gaeun's blog
 description: >
-  **I am Strata**, a super simple
-  responsive site template freebie
-  crafted by [HTML5 UP](http://html5up.net).
-copyright: Untitled
+  **I am Gaeun**
+  welcome to my blog.
+copyright: 카피라이트가뭐지?
 sass:
   sass_dir: assets/sass
 url: http://rhdalflrhd.github.io
@@ -14,7 +13,7 @@ linkedin_username: "#"
 instagram_username:
 pinterest_username:
 flickr_username:
-github_username:  "#"
+github_username: gaeungyeongsul
 feed_icon: rss
 email: "#"
 gems: [jekyll-paginate]
