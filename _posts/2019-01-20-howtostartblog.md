@@ -19,14 +19,14 @@ categories: portfolio
 <br>
 이렇게 깃허브와 연결됩니다. 여기서 `fork`를 눌러주세요. 그러면 나의 github 계정으로 다른 사람이 만들어 놓은 source 를 가져올 수 있습니다.
 <br>
-<img src="/images/blogmake/make3.JPG" width="800" height="400">
+<img src="/images/blogmake/make3.jpg" width="800" height="400">
 <br>
 >2. 코드 수정하기
 
 `README.md` 파일을 클릭해주세요. 설명히 잘 나와있어요.
 하라는대로 하면 됩니다.
 <br>
-<img src="/images/blogmake/make4.JPG" width="400" height="400">
+<img src="/images/blogmake/make4.jpg" width="400" height="400">
 <br>
 README.md 파일을 보면 이렇게 나와있습니다.
 <br>
