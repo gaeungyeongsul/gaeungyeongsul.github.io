@@ -12,6 +12,7 @@ categories: jekyll
 
 우선 블로그 디자인을 선택해야 합니다.
 디자인 목록은 [여기를 클릭해주세요](https://github.com/jekyll/jekyll/wiki/themes)
-`demo`를 클릭하여 샘플을 보면서 어떤 디자인을 할지 결정해주세요. 저는 깔끔한 strata를 선택했습니다. 선택한 후 `source`를 클릭해주세요.
-<img src="/images/blogmake/make1.JPG" width="300" height="200">
-![title](/images/blogmake/make1.JPG){: width="100" height="100"}
+`demo`를 클릭하여 샘플을 보면서 어떤 디자인을 할지 결정해주세요.
+<br>
+저는 깔끔한 strata를 선택했습니다. 선택한 후 `source`를 클릭해주세요.<br>
+<img src="/images/blogmake/make1.JPG" width="400" height="400">
