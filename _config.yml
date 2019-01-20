@@ -4,7 +4,7 @@ description: >
 copyright: Untitled
 sass:
   sass_dir: assets/sass
-url: http://rhdalflrhd.github.io
+url: http://gaeungyeongsul.github.io
 disqus_shortname: stratajekylldemo
 facebook_username:
 twitter_username: "#"
@@ -14,7 +14,7 @@ pinterest_username:
 flickr_username:
 github_username: gaeungyeongsul
 feed_icon: rss
-email: "#"
+email: gaeungyeongsul@gmail.com
 gems: [jekyll-paginate]
 paginate_path: "/page/:num/"
 paginate: 5
