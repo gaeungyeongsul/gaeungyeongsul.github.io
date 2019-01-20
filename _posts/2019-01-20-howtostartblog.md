@@ -14,3 +14,4 @@ categories: jekyll
 디자인 목록은 [여기를 클릭해주세요](https://github.com/jekyll/jekyll/wiki/themes)
 `demo`를 클릭하여 샘플을 보면서 어떤 디자인을 할지 결정해주세요. 저는 깔끔한 strata를 선택했습니다. 선택한 후 `source`를 클릭해주세요.
 <img src="/images/blogmake/make1.jpg" width="300" height="200">
+![title](/images/blogmake/make1.jpg){: width="100" height="100"}
