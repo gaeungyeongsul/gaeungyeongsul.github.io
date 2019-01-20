@@ -45,3 +45,6 @@ README.md 파일을 보면 이렇게 나와있습니다.
 <img src="/images/blogmake/make7.JPG" width="400" height="400">
 <br>
 그런 다음 title(블로그명), description(소개글)을 원하는대로 변경하시고 url: `https://yourgithubusername.github.io`로, github_username, email을 변경해주세요. 그외에도 수정할 부분을 마음대로 수정하면 됩니다.
+<br>
+<img src="/images/blogmake/make8.JPG" width="400" height="400">
+<br>이제 `https://yourgithubusername.github.io`를 들어가면 블로그가 잘 만들어졌습니다! 짝짝짝짝
