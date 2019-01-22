@@ -3,7 +3,6 @@
     <a href="{{ site.github.url }}/" class="image avatar"><img src="{{ site.github.url }}/images/coffee.jpg" alt="" /></a>
     <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
 
-    <header class="site-category">
       <ul>
 
         {% assign pages_list = site.pages %}
@@ -21,6 +20,5 @@
         {% endfor %}
 
     </ul>
-    </header>
 
   </header>
