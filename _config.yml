@@ -18,5 +18,3 @@ email: gaeungyeongsul@gmail.com
 gems: [jekyll-paginate]
 paginate_path: "/page/:num/"
 paginate: 5
-category_dir: category/
-tag_dir: tag/
