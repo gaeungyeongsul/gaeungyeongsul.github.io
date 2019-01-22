@@ -1,18 +1,26 @@
----
-layout: default
----
-<ul class="posts-list">
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    {% include head.html %}
+    {% include opengraph.html %}
+    {% include twittercard.html %}
+  </head>
+	<body id="top">
 
-  {% assign category = page.category | default: page.title %}
-  {% for post in site.categories[category] %}
-    <li>
-      <h3>
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-        </a>
-        <small>{{ post.date | date_to_string }}</small>
-      </h3>
-    </li>
-  {% endfor %}
+		{% include header.html %}
 
-</ul>
+		<!-- Main -->
+			<div id="main">
+				{{ content }}
+			</div>
+
+      {% include footer.html %}
+      {% include scripts.html %}
+
+	</body>
+</html>
