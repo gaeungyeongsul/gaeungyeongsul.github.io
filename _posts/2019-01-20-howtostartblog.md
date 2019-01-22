@@ -2,8 +2,8 @@
 layout: post
 title:  "깃허브 블로그 만들기"
 date:   2019-01-20 17:15:11 +0000
-categories: [portfolio]
-tags: [portfolio]
+categories: [Portfolio]
+tags: [Portfolio]
 ---
 # 깃허브 블로그 만들기
 
