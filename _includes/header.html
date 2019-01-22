@@ -2,8 +2,8 @@
   <header id="header">
     <a href="{{ site.github.url }}/" class="image avatar"><img src="{{ site.github.url }}/images/coffee.jpg" alt="" /></a>
     <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
-    <ul>
 
+    <ul>
    {% assign pages_list = site.pages %}
    {% for node in pages_list %}
      {% if node.title != null %}
