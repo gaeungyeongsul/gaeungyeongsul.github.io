@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: category
 
 title: portfolio
 
