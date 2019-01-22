@@ -3,7 +3,7 @@ layout: default
 image: /images/fulls/01.jpg
 ---
 <!-- algo -->
-{% for post in paginator.posts %}
+{% for post in site.categories.Algo %}
   <section>
     <h2><a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a></h2>
     <p>
