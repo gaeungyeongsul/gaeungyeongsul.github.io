@@ -3,22 +3,15 @@
     <a href="{{ site.github.url }}/" class="image avatar"><img src="{{ site.github.url }}/images/coffee.jpg" alt="" /></a>
     <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
 
-      <ul>
-
-        {% assign pages_list = site.pages %}
-        {% for node in pages_list %}
-          {% if node.title != null %}
-            {% if node.layout == "category" %}
-              <li><a class="category-link {% if page.url == node.url %} active{% endif %}"
-              href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
-            {% endif %}
-            {% if node.layout == "category0" %}
-              <li><a class="category-link {% if page.url == node.url %} active{% endif %}"
-              href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-
+    <ul id="menu" class="nav">
+        <li class="{% if page.url == '/Algo/' %} active {% endif %}">
+          <a href="{{ base_path }}/Algo/">Algo</a></li>
+        <li class="{% if page.url == '/Portfolio/' %} active {% endif %}">
+          <a href="{{ base_path }}/Portfolio/">Portfolio</a>
+        </li>
+        <li class="{% if page.url == '/os/' %} active {% endif %}">
+          <a href="{{ base_path }}/os/">OS</a>
+        </li>
     </ul>
 
   </header>
