@@ -1,6 +1,6 @@
 ---
 
-layout: category0
+layout: category
 title: algorism
 
 ---
