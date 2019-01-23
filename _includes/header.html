@@ -1,5 +1,4 @@
 <!-- Header -->
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
 <style>
   ol.v {list-style-type: none;}
 </style>
@@ -8,11 +7,7 @@
     <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
 
     <ol class="v">
-      <li>
-<i class="fas fa-blog"></i>
-      </li>
         <li class="{% if page.url == '/algorithm/' %} active {% endif %}">
-          <i class="fas fa-blog"></i>
           <a href="{{ base_path }}/algorithm/">algorithm</a></li>
         <li class="{% if page.url == '/portfolio/' %} active {% endif %}">
           <a href="{{ base_path }}/portfolio/">portfolio</a>
