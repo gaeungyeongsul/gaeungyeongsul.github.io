@@ -2,11 +2,14 @@
 <style>
     ol.v {
       list-style-type: none;
-      font-color : black;
       min-height: 1px;
       padding-right: 10px;
       padding-left: 66%;
       font: 15px arial, sans-serif;
+      text-align : left;
+    }
+    a{
+      color : black;
     }
     li{
         padding : 5px;
@@ -18,14 +21,17 @@
 
         <ol class="v">
             <li class="{% if page.url == '/algorithm/' %} active {% endif %}"
-            {% if page.url == '/algorithm/' %} style="border-left:3px solid blue;"
-            {% endif %}
-            >
+            {% if page.url == '/algorithm/' %} style="border-left:3px solid red;"
+            {% endif %}>
               <a href="{{ base_path }}/algorithm/">algorithm</a></li>
-            <li class="{% if page.url == '/portfolio/' %} active {% endif %}">
+            <li class="{% if page.url == '/portfolio/' %} active {% endif %}"
+            {% if page.url == '/portfolio/' %} style="border-left:3px solid red;"
+            {% endif %}>
               <a href="{{ base_path }}/portfolio/">portfolio</a>
             </li>
-            <li class="{% if page.url == '/gitblog/' %} active {% endif %}">
+            <li class="{% if page.url == '/gitblog/' %} active {% endif %}"
+            {% if page.url == '/gitblog/' %} style="border-left:3px solid red;"
+            {% endif %}>
               <a href="{{ base_path }}/gitblog/">gitblog</a>
             </li>
         </ol>
