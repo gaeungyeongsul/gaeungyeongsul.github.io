@@ -2,9 +2,10 @@
 <style>
     ol.v {
       list-style-type: none;
+      font-color : black;
       min-height: 1px;
       padding-right: 10px;
-      padding-left: 0px;
+      padding-left: 66%;
       font: 15px arial, sans-serif;
     }
     li{
@@ -17,7 +18,7 @@
 
         <ol class="v">
             <li class="{% if page.url == '/algorithm/' %} active {% endif %}"
-            {% if page.url == '/algorithm/' %} style="border-left:3px solid red;"
+            {% if page.url == '/algorithm/' %} style="border-left:3px solid blue;"
             {% endif %}
             >
               <a href="{{ base_path }}/algorithm/">algorithm</a></li>
