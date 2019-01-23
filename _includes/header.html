@@ -2,18 +2,26 @@
 <style>
   ol.v {
     list-style-type: none;
-    position: relative;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    width: 33.33333333%;
+  }
+  .list1{
+    position: relative;
+    width: 66.66666666%;
+  }
+  .list2{
+    position: relative;
+    width: 33.3333333%;
     border-style: solid;
   }
 </style>
   <header id="header">
     <a href="{{ site.github.url }}/" class="image avatar"><img src="{{ site.github.url }}/images/coffee.jpg" alt="" /></a>
     <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
-
+<div>
+<div class="list1"></div>
+<div class="list2">
     <ol class="v">
         <li class="{% if page.url == '/algorithm/' %} active {% endif %}">
           <a href="{{ base_path }}/algorithm/">algorithm</a></li>
@@ -24,5 +32,6 @@
           <a href="{{ base_path }}/gitblog/">gitblog</a>
         </li>
     </ol>
-
+</div>
+</div>
   </header>
