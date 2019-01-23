@@ -8,8 +8,12 @@
     <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
 
     <ol class="v">
+      <li>
+<i class="fas fa-blog"></i>
+      </li>
         <li class="{% if page.url == '/algorithm/' %} active {% endif %}">
-          <a href="{{ base_path }}/algorithm/"><i class="fas fa-blog"></i>algorithm</a></li>
+          <i class="fas fa-blog"></i>
+          <a href="{{ base_path }}/algorithm/">algorithm</a></li>
         <li class="{% if page.url == '/portfolio/' %} active {% endif %}">
           <a href="{{ base_path }}/portfolio/">portfolio</a>
         </li>
