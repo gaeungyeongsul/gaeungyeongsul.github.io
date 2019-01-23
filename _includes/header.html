@@ -10,17 +10,16 @@
     li{
         padding : 5px;
     }
-    .selected{
-      border : 5px solid red;
-    }
 </style>
   <header id="header">
     <a href="{{ site.github.url }}/" class="image avatar"><img src="{{ site.github.url }}/images/coffee.jpg" alt="" /></a>
     <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
 
         <ol class="v">
-            <li class="{% if page.url == '/algorithm/' %} active {% endif %}">
-              {% if page.url == '/algorithm/' %}<div class="selected"></div>{% endif %}
+            <li class="{% if page.url == '/algorithm/' %} active {% endif %}"
+            {% if page.url == '/algorithm/' %} style="border-left:3px solid red;"
+            {% endif %}
+            >
               <a href="{{ base_path }}/algorithm/">algorithm</a></li>
             <li class="{% if page.url == '/portfolio/' %} active {% endif %}">
               <a href="{{ base_path }}/portfolio/">portfolio</a>
