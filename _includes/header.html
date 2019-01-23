@@ -1,9 +1,12 @@
 <!-- Header -->
+<style>
+  ol.v {list-style-type: none;}
+</style>
   <header id="header">
     <a href="{{ site.github.url }}/" class="image avatar"><img src="{{ site.github.url }}/images/coffee.jpg" alt="" /></a>
     <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
 
-    <ul id="menu" class="nav">
+    <ol class="v">
         <li class="{% if page.url == '/Algo/' %} active {% endif %}">
           <a href="{{ base_path }}/Algo/">Algo</a></li>
         <li class="{% if page.url == '/Portfolio/' %} active {% endif %}">
@@ -12,6 +15,6 @@
         <li class="{% if page.url == '/os/' %} active {% endif %}">
           <a href="{{ base_path }}/os/">OS</a>
         </li>
-    </ul>
+    </ol>
 
   </header>
