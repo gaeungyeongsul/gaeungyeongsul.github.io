@@ -1,17 +1,6 @@
 <!-- Header -->
 <style>
-  a{
-  	text-decoration : none;
-  }
-    .div1{
-      position: relative;
-      width: 66%;
-      display: inline-block;
-    }
-    .div2{
-      display: inline-block;
-      border : 1px solid;
-    }
+
     ol.v {
       list-style-type: none;
       min-height: 1px;
@@ -20,25 +9,12 @@
       font: 13px arial, sans-serif;
       margin: 0px;
     }
-    li{
-      padding : 5px;
-    }
-    .category{
-    border-bottom : 1px solid;
-    padding : 10px;
-    font: 13px arial, sans-serif;
-    text-align: center;
-    }
 
 </style>
   <header id="header">
     <a href="{{ site.github.url }}/" class="image avatar"><img src="{{ site.github.url }}/images/coffee.jpg" alt="" /></a>
     <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
-    <div>
-    <div class="div1"></div>
-    <div class="div2">
-    <div class="category"><b>CATEGORY</b></div>
-        <div class="list">
+
         <ol class="v">
             <li class="{% if page.url == '/algorithm/' %} active {% endif %}">
               <a href="{{ base_path }}/algorithm/">algorithm</a></li>
@@ -49,8 +25,5 @@
               <a href="{{ base_path }}/gitblog/">gitblog</a>
             </li>
         </ol>
-        </div>
-    </div>
-    </div>
-
+      
   </header>
