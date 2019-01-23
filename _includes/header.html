@@ -17,7 +17,7 @@
 
         <ol class="v">
             <li class="{% if page.url == '/algorithm/' %} active {% endif %}">
-              <%if page.url == '/algorithm/' {%><a>알고</a><%}%>
+              {% if page.url == '/algorithm/' %}<a>알고</a> {% endif %}
               <a href="{{ base_path }}/algorithm/">algorithm</a></li>
             <li class="{% if page.url == '/portfolio/' %} active {% endif %}">
               <a href="{{ base_path }}/portfolio/">portfolio</a>
