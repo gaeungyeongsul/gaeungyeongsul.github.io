@@ -21,7 +21,8 @@
             <li class="{% if page.url.indexOf('/algorithm/') != -1 %} active {% endif %}"
             style="{% if page.url.indexOf('/algorithm/') != -1 %} border-left:3px solid red;
             {% endif %}">
-
+               page.url.indexOf('/algorithm/')
+               page.url
               <a href="{{ base_path }}/algorithm/">algorithm</a></li>
             <li class="{% if page.url == '/portfolio/' %} active {% endif %}"
             {% if page.url == '/portfolio/' %} style="border-left:3px solid red;"
