@@ -15,6 +15,10 @@ img{
 포트폴리오- 3. 댓글기능
 <br>
 
+>댓글
+
+<img src="/images/petst/comment/writecomment.jpg" width="800" height="200"><br>
+
 >대댓글
 
 대댓글의 방식은 여러가지가 있지만, 구현한 대댓글 기능은 여러 인터넷 카페에서 사용되는 방식을 이용했습니다.
