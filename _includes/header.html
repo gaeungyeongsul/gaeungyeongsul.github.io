@@ -18,8 +18,8 @@
     <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
 
         <ol class="v">
-            <li class="{% if page.url == '/algorithm/' %} active {% endif %}"
-            {% if page.url == '/algorithm/*' %} style="border-left:3px solid red;"
+            <li class="{% if page.url.contains '/algorithm/' %} active {% endif %}"
+            {% if page.url.contains '/algorithm/*' %} style="border-left:3px solid red;"
             {% endif %}>
               <a href="{{ base_path }}/algorithm/">algorithm</a></li>
             <li class="{% if page.url == '/portfolio/' %} active {% endif %}"
