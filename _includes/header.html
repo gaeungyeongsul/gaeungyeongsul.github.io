@@ -1,26 +1,8 @@
 <!-- Header -->
-<style>
-  /*
-    #header ol.v {
-      list-style-type: none;
-      min-height: 1px;
-      padding-right: 10px;
-      padding-left: 66%;
-      font: 15px arial, sans-serif;
-      text-align : left;
-    }
-    #header li{
-        padding : 5px;
-        padding-left: 10px;
-    }
-    */
-</style>
   <header id="header">
-    <div id="header_container">
-      <div class="intro">
+
         <a href="{{ site.github.url }}/" class="image avatar"><img src="{{ site.github.url }}/images/coffee.jpg" alt="" /></a>
         <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
-      </div>
       <div class="categ">
         <ul>
             <li class="{% if page.url == '/algorithm/' %} active {% endif %}"
@@ -39,5 +21,4 @@
             </li>
         </ul>
       </div>
-    </div>
   </header>
