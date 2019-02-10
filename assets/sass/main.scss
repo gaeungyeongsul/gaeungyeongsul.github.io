@@ -1207,6 +1207,19 @@
 					}
 				}
 			}
+			/*category???*/
+			#header ol.v {
+				list-style-type: none;
+				min-height: 1px;
+				padding-right: 10px;
+				padding-left: 66%;
+				font: 15px arial, sans-serif;
+				text-align : left;
+			}
+			#header li{
+					padding : 5px;
+					padding-left: 10px;
+			}
 
 		/* Footer */
 
@@ -1283,6 +1296,21 @@
 					}
 				}
 			}
+
+			/*category???*/
+			#header ol.v {
+	      list-style-type: none;
+	      min-height: 1px;
+	      padding-right: 10px;
+	      padding-left: 66%;
+	      font: 15px arial, sans-serif;
+	      text-align : left;
+	    }
+	    #header li{
+					display: inline-block;
+	        padding : 5px;
+	        padding-left: 10px;
+	    }
 
 		/* Footer */
 
