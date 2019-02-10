@@ -1300,21 +1300,20 @@
 			/*category???*/
 			#header div{
 				text-align : center;
-				border : 1px solid red;
+				border : 1px solid blue;
 			}
 			#header ul{
 				border : 3px solid red;
-	      list-style-type: none;
+	      list-style: none;
 	      min-height: 1px;
 	      font: 15px arial, sans-serif;
-				padding-left: 10%;
 				margin: 0;
 
 	    }
 	    #header li{
 					display: inline;
 	        padding : 5px;
-	        padding-left: 10px;
+	        padding-left: 30px;
 	    }
 
 		/* Footer */
