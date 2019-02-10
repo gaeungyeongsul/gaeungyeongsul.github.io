@@ -19,7 +19,7 @@
     <a href="{{ site.github.url }}/" class="image avatar"><img src="{{ site.github.url }}/images/coffee.jpg" alt="" /></a>
     <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
 
-        <ol class="v">
+        <ul class="v">
             <li class="{% if page.url == '/algorithm/' %} active {% endif %}"
             {% if page.url == '/algorithm/' %} style="border-left:3px solid red;"
             {% endif %}>
@@ -34,6 +34,6 @@
             {% endif %}>
               <a href="{{ base_path }}/gitblog/">gitblog</a>
             </li>
-        </ol>
+        </ul>
 
   </header>

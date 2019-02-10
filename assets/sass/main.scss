@@ -1208,7 +1208,7 @@
 				}
 			}
 			/*category???*/
-			#header ol.v {
+			#header ul{
 				list-style-type: none;
 				min-height: 1px;
 				padding-right: 10px;
@@ -1298,7 +1298,7 @@
 			}
 
 			/*category???*/
-			#header ol.v {
+			#header ul{
 	      list-style-type: none;
 	      min-height: 1px;
 	      padding-right: 10px;
@@ -1307,7 +1307,7 @@
 	      text-align : left;
 	    }
 	    #header li{
-					display: inline-block;
+					display: inline;
 	        padding : 5px;
 	        padding-left: 10px;
 	    }
