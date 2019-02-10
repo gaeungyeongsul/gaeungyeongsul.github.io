@@ -18,7 +18,7 @@
   <header id="header">
     <a href="{{ site.github.url }}/" class="image avatar"><img src="{{ site.github.url }}/images/coffee.jpg" alt="" /></a>
     <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
-      <div class="category">
+      <div class="category" style="border: 3px solid red;">
         <ul>
             <li class="{% if page.url == '/algorithm/' %} active {% endif %}"
             {% if page.url == '/algorithm/' %} style="border-left:3px solid red;"
