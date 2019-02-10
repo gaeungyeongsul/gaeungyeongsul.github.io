@@ -1298,9 +1298,6 @@
 			}
 
 			/*category???*/
-			#header {
-				display: block;
-			}
 			#header div{
 				text-align : center;
 				border : 1px solid red;
@@ -1314,6 +1311,7 @@
 
 	    }
 	    #header li{
+					border : 4px solid black;
 					display: inline;
 	        padding : 5px;
 	        padding-left: 30px;

@@ -16,8 +16,9 @@
     */
 </style>
   <header id="header">
-    <a href="{{ site.github.url }}/" class="image avatar"><img src="{{ site.github.url }}/images/coffee.jpg" alt="" /></a>
-    <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
+    <div id="header_container" style="border: 1px solid yellow;">
+        <a href="{{ site.github.url }}/" class="image avatar"><img src="{{ site.github.url }}/images/coffee.jpg" alt="" /></a>
+        <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
       <div class="categ">
         <ul>
             <li class="{% if page.url == '/algorithm/' %} active {% endif %}"
@@ -35,5 +36,6 @@
               <a href="{{ base_path }}/gitblog/">gitblog</a>
             </li>
         </ul>
-      <div>
+      </div>
+      </div>
   </header>
