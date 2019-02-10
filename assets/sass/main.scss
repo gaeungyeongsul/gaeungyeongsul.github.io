@@ -1209,7 +1209,7 @@
 			}
 			/*category???*/
 			#header ul{
-				list-style-type: none;
+				list-style: none;
 				min-height: 1px;
 				padding-right: 10px;
 				padding-left: 66%;
@@ -1301,7 +1301,7 @@
 			#header ul{
 	      list-style-type: none;
 	      min-height: 1px;
-	      
+
 	      font: 15px arial, sans-serif;
 	      text-align : center;
 	    }
@@ -1414,6 +1414,20 @@
 				}
 			}
 
+			/*category???*/
+			#header ul{
+	      list-style-type: none;
+	      min-height: 1px;
+
+	      font: 15px arial, sans-serif;
+	      text-align : center;
+	    }
+	    #header li{
+					display: inline;
+	        padding : 5px;
+	        padding-left: 10px;
+	    }
+
 		/* Footer */
 
 			#footer {
@@ -1504,6 +1518,20 @@
 				}
 			}
 
+			/*category???*/
+			#header ul{
+	      list-style-type: none;
+	      min-height: 1px;
+
+	      font: 15px arial, sans-serif;
+	      text-align : center;
+	    }
+	    #header li{
+					display: inline;
+	        padding : 5px;
+	        padding-left: 10px;
+	    }
+			
 		/* Footer */
 
 			#footer {
