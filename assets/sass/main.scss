@@ -1417,18 +1417,20 @@
 			}
 
 			/*category???*/
+			#header .categ{
+				margin: 0;
+				text-align : center;
+			}
 			#header ul{
-	      list-style-type: none;
-	      min-height: 1px;
-
-	      font: 15px arial, sans-serif;
-	      text-align : center;
-	    }
+				list-style: none;
+				min-height: 1px;
+				font: 15px arial, sans-serif;
+				margin: 0;
+			}
 	    #header li{
-					display: inline;
-	        padding : 5px;
-	        padding-left: 10px;
-	    }
+				display: inline;
+				padding-right: : 30px;
+			}
 
 		/* Footer */
 
@@ -1521,17 +1523,20 @@
 			}
 
 			/*category???*/
+			#header .categ{
+				margin: 0;
+				text-align : center;
+			}
 			#header ul{
-	      list-style-type: none;
-	      min-height: 1px;
-	      font: 15px arial, sans-serif;
-	      text-align : center;
-	    }
-	    #header li{
-					display: inline;
-	        padding : 5px;
-	        padding-left: 10px;
-	    }
+				list-style: none;
+				min-height: 1px;
+				font: 15px arial, sans-serif;
+				margin: 0;
+			}
+			#header li{
+				display: inline;
+				padding-right: : 30px;
+			}
 
 		/* Footer */
 
