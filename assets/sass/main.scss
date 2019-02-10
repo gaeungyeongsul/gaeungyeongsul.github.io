@@ -1277,7 +1277,7 @@
 
 		/* Header */
 
-			#header { 
+			#header {
 				background-attachment:	scroll;
 				background-position:	top left,	center center;
 				background-size:		auto,		cover;
@@ -1303,6 +1303,7 @@
 				text-align : center;
 			}
 			#header ul{
+				border: none;
 	      list-style: none;
 	      min-height: 1px;
 	      font: 15px arial, sans-serif;
