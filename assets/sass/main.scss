@@ -1298,12 +1298,15 @@
 			}
 
 			/*category???*/
+			#header {
+				display: inline-block;
+			}
 			#header div{
 				text-align : center;
-				border : 1px solid blue;
+				border : 1px solid black;
 			}
 			#header ul{
-				border : 3px solid red;
+				border : 3px solid blue;
 	      list-style: none;
 	      min-height: 1px;
 	      font: 15px arial, sans-serif;
