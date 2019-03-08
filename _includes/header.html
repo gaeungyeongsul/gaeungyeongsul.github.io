@@ -14,7 +14,17 @@
             <li class="{% if page.url == '/portfolio/' %} active {% endif %}"
             {% if page.url == '/portfolio/' %}
             {% endif %}>
-              <a href="{{ base_path }}/portfolio/">portfolio</a>
+              <a href="{{ base_path }}/portfolio/">Spring포트폴리오</a>
+            </li>
+            <li class="{% if page.url == '/php/' %} active {% endif %}"
+            {% if page.url == '/php/' %}
+            {% endif %}>
+              <a href="{{ base_path }}/php/">php포트폴리오</a>
+            </li>
+            <li class="{% if page.url == '/error/' %} active {% endif %}"
+            {% if page.url == '/error/' %}
+            {% endif %}>
+              <a href="{{ base_path }}/error/">오류 모음</a>
             </li>
             <li class="{% if page.url == '/gitblog/' %} active {% endif %}"
             {% if page.url == '/gitblog/' %}
