@@ -1,8 +1,11 @@
 <!-- Header -->
   <header id="header">
-
+     <div style="display: block;">
+       <div>
         <a href="{{ site.github.url }}/" class="image avatar"><img src="{{ site.github.url }}/images/coffee.jpg" alt="" /></a>
         <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
+      </div>
+      <div>
         <ul>
             <li class="{% if page.url == '/algorithm/' %} active {% endif %}"
             {% if page.url == '/algorithm/' %} style="border-left:3px solid red;"
@@ -19,4 +22,6 @@
               <a href="{{ base_path }}/gitblog/">gitblog</a>
             </li>
         </ul>
+       </div>
+     </div>
   </header>
