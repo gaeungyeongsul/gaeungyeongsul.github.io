@@ -106,12 +106,9 @@ var joincheck = function(){
 <br>
 가입조건을 만족하여 submit이 됐을 경우 join.php로 form태그 속의 값들이 post 방식으로 넘어갑니다.
 
-`$_POST['name명']`을 받아 insert sql문을 만들어줍니다.<br>
-mysqli_query로 쿼리문을 전송한 후 값을 받아 옵니다.<br>
-만약 실패할 경우 alert창이 뜨도록 하였고<br>
-성공할 경우 메인페이지로 이동하도록 하였습니다.<br>
-header()는 HTTP response header를 직접 조작할 수 있게 하며<br>
-exit를 통해 불필요한 코드의 실행을 방지합니다.
+`$_POST['name명']`을 받아 insert sql문을 만든 후 mysqli_query로 쿼리문을 전송한 후 값을 받아 옵니다.<br>
+만약 실패할 경우 alert창이 뜨도록 하였고 성공할 경우 메인페이지로 이동하도록 하였습니다.<br>
+header()는 HTTP response header를 직접 조작할 수 있게 하며 exit를 통해 불필요한 코드의 실행을 방지합니다.
 
 ```php
 $sql = "insert into user(user_no, user_id, user_password, user_nickname ,

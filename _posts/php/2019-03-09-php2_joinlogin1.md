@@ -107,12 +107,12 @@ if ($result) {
       echo true;
 }
 ```
-`include('db.php')`를 통해 위 `db.php`에서 만든 `dbconn`함수를 `$conn` 변수에 담습니다.<br>
-`$_GET['user_id']`가 비어있지 않다면 `user_id`에 `$_GET['user_id']`값을 넣습니다.
+include('db.php')를 통해 위 db.php에서 만든 dbconn함수를 \$conn 변수에 담습니다.<br>
+user_id에 \$_GET['user_id']값을 넣습니다.
 <br>
 이 때 `mysqli_real_escape_string`은 SQL Injection (사용자가 임의로 sql문 주입하여 데이터베이스를 비정상적으로 조작)를 방지하여 특수 문자를 문자열에서 이스케이프합니다.
 <br>
-select구문을 만들어 `$sql`변수에 담고 데이터 베이스 쿼리를 실행하는 `mysqli_query`함수를 실행합니다. 실행 결과를 `$result`에 담습니다.
+select구문을 만들어 \$sql변수에 담고 데이터 베이스 쿼리를 실행하는 `mysqli_query`함수를 실행합니다. 실행 결과를 \$result에 담습니다.
 <br>
-그리고 `mysqli_fetch_array`를 사용하여 mysql 서버가 응답한 결과를 배열로 변환합니다. 만약 `$row`가 null인 경우 `false`를 반환하도록 합니다.
+그리고 `mysqli_fetch_array`를 사용하여 mysql 서버가 응답한 결과를 배열로 변환합니다. 만약 \$row가 null인 경우 false를 반환하도록 합니다.
 <br>
