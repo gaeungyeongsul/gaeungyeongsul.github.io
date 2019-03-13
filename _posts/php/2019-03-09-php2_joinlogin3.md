@@ -139,12 +139,12 @@ login.php
   include("../db/db.php");
   $conn = dbconn();
   if (isset($_POST['user_id']) && isset($_POST['user_password'])) {
-    $user_id = mysqli_real_escape_string($conn, $_POST['user_id']);
-    $user_password = mysqli_real_escape_string($conn, $_POST['user_password']);
+    $user_id = $conn->real_escape_string($_POST['user_id']);
+    $user_password =$conn->real_escape_string($_POST['user_password']);
     $sql = "select user_password from user where user_id='$user_id'";
-    $result = mysqli_query($conn, $sql);
+    $result = $conn->query($sql);
     if ($result) {
-      $row = mysqli_fetch_array($result);
+      $row = $result->fetch_object();
       if($row != null){
         $get_password = $row['user_password'];
         if (password_verify($user_password, $get_password)) {

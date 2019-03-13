@@ -43,16 +43,16 @@ db.php
 ```php
 function dbconn()
 {
-  $host_name="localhost";
+  $host_name="127.0.0.1:3307";
   $db_user_id="root";
-  $db_name="DB명";
-  $db_pw="DB비밀번호";
+  $db_name="gaeundev";
+  $db_pw="mysql1";
   $conn = mysqli_connect($host_name,$db_user_id,$db_pw, $db_name);//mysql연결
 
-  if(!$conn){
-    die('Connect Error: ' . mysqli_connect_error());
+  if($conn->connect_errno){
+    die('connect error : '.$conn->connect_error);
   }
-  return $conn;
+  return $conn; //호출한 페이지 종료 후 호출한 페이지로 넘어감
 }
 ```
 <br>
@@ -95,12 +95,12 @@ selectOneUser.php
 include("..경로/db.php");
 $conn = dbconn();
 if (isset($_GET['user_id'])) {
-  $user_id = mysqli_real_escape_string($conn, $_GET['user_id']);
+  $user_id = $conn->real_escape_string($_GET['user_id']);
   $sql = "select * from user where user_id='$user_id'";
 }
-$result = mysqli_query($conn, $sql);
+$result = $conn->query($sql);
 if ($result) {
-  $row = mysqli_fetch_array($result);
+  $row = $result->fetch_object();
     if($row == null)
       echo false;
     else
